@@ -3,47 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome Workshop</title>
+  <title>สวัสดีปีใหม่จีน 🧧</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    }
-    .container {
-      text-align: center;
-      color: white;
-      padding: 2rem;
-      cursor: pointer;
-      transition: transform 0.3s;
-    }
-    .container:hover {
-      transform: scale(1.05);
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.25rem;
-      opacity: 0.9;
-    }
-  </style>
 </head>
 <body>
+  <div class="fireworks"></div>
+  
   <div class="container">
-    <h1>Welcome to Workshop! 🎉 OpenCode + LINE</h1>
-    <p>OpenCode + LINE = AI Coding Fun</p>
+    <div class="lantern left"></div>
+    <div class="lantern right"></div>
+    
+    <div class="content">
+      <h1 class="title">🧧 สวัสดีปีใหม่จีน 🧧</h1>
+      <p class="subtitle">ปีมะเส็ง 2569</p>
+      
+      <div class="message">
+        <p>🎊 ขอให้มีความสุข มีโชค มีลาภ</p>
+        <p>💰 ร่ำรวย อายุยืน สุขภาพดี</p>
+        <p>🐍 ปีงูให้ทุกอย่างราบรื่น</p>
+      </div>
+      
+      <button class="btn" onclick="showBlessing()">
+        🎁 กดรับโชค
+      </button>
+      
+      <div class="blessing" id="blessing">
+        <p>🎉 ขอให้โชคดีตลอดปี! 🎉</p>
+      </div>
+    </div>
   </div>
+
   <script src="js/main.js"></script>
 </body>
 </html>
